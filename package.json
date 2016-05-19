@@ -1,0 +1,28 @@
+{
+  "name": "input-validator",
+  "version": "1.0.0",
+  "description": "validator for input value",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha tests/unit/* --compilers js:babel-core/register",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "input",
+    "validator"
+  ],
+  "author": "ArvinH",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
