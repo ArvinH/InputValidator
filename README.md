@@ -1,4 +1,4 @@
-# Input Validator
+# Input Validator [![Build Status](https://travis-ci.org/ArvinH/InputValidator.svg?branch=master)](https://travis-ci.org/ArvinH/InputValidator)
 
 ## Usage
 
