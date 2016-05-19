@@ -1,5 +1,5 @@
 {
-  "name": "input-validator",
+  "name": "input_validator",
   "version": "1.0.0",
   "description": "validator for input value",
   "main": "./dist/index.js",
@@ -12,16 +12,14 @@
     "input",
     "validator"
   ],
-  "author": "ArvinH",
+  "author": "arvinh",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.9.0",
     "babel-preset-es2015": "^6.9.0"
   },
   "dependencies": {
-    "babel": "^6.5.2",
+    "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",
-    "babel-loader": "^6.2.4",
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
   },
